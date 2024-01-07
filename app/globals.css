@@ -7,7 +7,7 @@ body {
 }
 @layer components {
     .btn {
-        @apply px-4 py-2 rounded-md text-white bg-blue-500 hover:bg-blue-600;
+        @apply overflow-hidden transition-transform transform hover:scale-105;
     }
     .text-footer {
         @apply flex flex-col gap-2 text-sm;
