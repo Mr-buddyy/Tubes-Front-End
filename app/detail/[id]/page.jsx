@@ -14,7 +14,7 @@ function Page() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch(`https://63577a3f9243cf412f9942de.mockapi.io/edukasi/${id}`, {
+                const response = await fetch(`https://stoik.my.id/backend/public/api/detail/${id}`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ function Page() {
         if (id) {
             fetchData();
         }
-    }, [id]); 
+    }, [id]);
 
     return (
         <div className="p-8">
