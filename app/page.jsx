@@ -46,7 +46,7 @@ const Page = () => {
                         Platform Edukasi <br />
                         Terhadap Penyakit
                     </div>
-                    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has </div>
+                    <div>Stoik, Menyentuh Hati, Mencerahkan Minda, Satu Langkah Menuju Kesehatan Mental yang Lebih Baik.</div>
                     <a href="/tentang">
                         {" "}
                         <button className="bg-black btn p-5 rounded-md text-white shadow-[0_10px_60px_-5px_rgba(0,92,230,0.76)]">Pelajari Selengkapnya</button>
@@ -62,9 +62,7 @@ const Page = () => {
                 <div id="about" className="flex flex-col gap-10 text-center">
                     <div className="font-bold text-7xl">Tentang Kami</div>
                     <div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Stoik, sebuah platform yang berkomitmen untuk menyediakan sumber daya, dukungan, dan inspirasi bagi kesehatan mental Anda. Bersama-sama, kita membangun lingkungan yang mendukung pertumbuhan emosional dan kesejahteraan.
                     </div>
                 </div>
             </div>
@@ -113,18 +111,18 @@ const Page = () => {
             {/* kontak */}
             <div id="contact" className="flex flex-col gap-5 text-center items-center p-20 ">
                 <div className="font-bold text-7xl">Kontak</div>
-                <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has </div>
+                <div>Hubungi Kami - Tim Stoik siap mendengarkan dan memberikan dukungan untuk memastikan kesehatan mental Anda tetap menjadi prioritas.</div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 text-center">
                     <div className="bg-white p-10 rounded-tl-3xl btn">
-                        <div>icon</div>
+                        <div>Nomor Telepon</div>
                         <div>082220484108</div>
                     </div>
                     <div className="bg-white p-10 rounded-tl-3xl btn">
-                        <div>icon</div>
+                        <div>Alamat</div>
                         <div>Jl DiPanjaitan</div>
                     </div>
                     <div className="bg-white p-10 rounded-tl-3xl btn">
-                        <div>icon</div>
+                        <div>Email</div>
                         <div>20104045@ittelkom-pwt.ac.id</div>
                     </div>
                 </div>

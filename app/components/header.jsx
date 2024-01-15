@@ -11,7 +11,7 @@ const Page = () => {
         <header>
             <div>
                 <div className="flex flex-row justify-between px-20 py-5">
-                    <Image src="/app/icon.png" width={122} height={211} />
+                    <Image src="/app/stoik.png" width={90} height={90} />
                     <ul className="flex flex-row gap-10">
                         <li>
                             <a href="/" className={pathname === "/" ? "text-bold" : ""}>

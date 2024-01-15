@@ -11,10 +11,10 @@ function Filter({ searchKeyword, onFilterChange, sortOption, onSortChange, sortD
             <label>
                 Filter by Category:
                 <select value={selectedCategory} onChange={onCategoryChange} className="p-2 border border-gray-300 rounded-md">
-                    <option value="">All Categories</option>
+                    <option value="allcategory">All Categories</option>
                     {categories.map((category) => (
-                        <option key={category} value={category}>
-                            {category}
+                        <option key={category.id} value={category.nama}>
+                            {category.nama}
                         </option>
                     ))}
                 </select>
@@ -24,7 +24,7 @@ function Filter({ searchKeyword, onFilterChange, sortOption, onSortChange, sortD
                 <select value={sortOption} onChange={onSortChange} className="p-2 border border-gray-300 rounded-md">
                     <option value="judul">Judul</option>
                     <option value="tanggal">Tanggal</option>
-                    {/* Tambahkan opsi pengurutan lain sesuai kebutuhan */}
+                    {/* Add other sorting options as needed */}
                 </select>
                 <button onClick={onToggleSortDirection} className="p-2 border border-gray-300 rounded-md">
                     {sortDirection === "asc" ? "Ascending" : "Descending"}

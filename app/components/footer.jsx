@@ -9,8 +9,8 @@ function footer() {
             <div className="w-full p-20">
                 <div className="grid grid-cols-6 gap-10 w-full h-full">
                     <div className="col-span-2 text-sm">
-                        <div className="font-bold">Sipenyakit</div>
-                        <div>Sipenyakit adalah website untuk mengedukasi masyarakat tentang bahayanya penyakit</div>
+                        <div className="font-bold">Stoik</div>
+                        <div>Stoik, Menyentuh Hati, Mencerahkan Minda, Satu Langkah Menuju Kesehatan Mental yang Lebih Baik.</div>
                     </div>
                     <div className="text-footer">
                         <div className="font-bold">Quick Link</div>
