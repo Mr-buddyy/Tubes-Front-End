@@ -95,7 +95,7 @@ const Page = () => {
                         data.map((item, index) => (
                             <div key={index} className=" flex flex-col gap-5 text-left bg-white p-10 rounded-tl-3xl shadow-[0_10px_60px_-5px_rgba(0,92,230,0.76)">
                                 <div className="font-bold">{item.judul}</div>
-                                <img src={item.linkgambar} alt={`Image for ${item.judul}`} />
+                                <img className="w-60 h-60 object-contain" src={item.linkgambar} alt={`Image for ${item.judul}`} />
                                 <div className="text-justify">{truncateDescription(item.deskripsi, 15)}</div>
                                 <button className="btn color-primary py-2 px-5 rounded-md text-white">
                                     <Link href={`/detail/${item.id}`} className="">
