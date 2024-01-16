@@ -38,7 +38,7 @@ const Page = () => {
     }
 
     return (
-        <section>
+        <section className="pt-28">
             <div id="hero" className="grid lg:grid-cols-2 sm:grid-cols-1 gap-5 p-20">
                 <div className="flex flex-col gap-10 justify-center mr-10">
                     <div className="font-bold text-7xl">
@@ -49,20 +49,21 @@ const Page = () => {
                     <div>Stoik, Menyentuh Hati, Mencerahkan Minda, Satu Langkah Menuju Kesehatan Mental yang Lebih Baik.</div>
                     <a href="/tentang">
                         {" "}
-                        <button className="bg-black btn p-5 rounded-md text-white shadow-[0_10px_60px_-5px_rgba(0,92,230,0.76)]">Pelajari Selengkapnya</button>
+                        <button className="color-primary btn p-5 rounded-md text-white shadow-[0_10px_60px_-5px_rgba(0,92,230,0.76)]">Pelajari Selengkapnya</button>
                     </a>
                 </div>
 
                 <div className="relative max-w-xs mb-12">
-                    <img src="/app/hero2.png" alt="" className="w-full h-full" />
-                    <img src="/app/hero2.png" alt="" className="absolute origin-bottom-right scale-75 rounded-md -bottom-12 -right-44 max-w-full" />
+                    <img src="/app/hero2.png" alt="" className="w-full h-full rounded-md" />
+                    {/* <img src="/app/hero2.png" alt="" className="absolute origin-bottom-right scale-75 rounded-md -bottom-12 -right-44 max-w-full" /> */}
                 </div>
             </div>
             <div className="p-20">
                 <div id="about" className="flex flex-col gap-10 text-center">
                     <div className="font-bold text-7xl">Tentang Kami</div>
                     <div>
-                    Stoik, sebuah platform yang berkomitmen untuk menyediakan sumber daya, dukungan, dan inspirasi bagi kesehatan mental Anda. Bersama-sama, kita membangun lingkungan yang mendukung pertumbuhan emosional dan kesejahteraan.
+                        Stoik, sebuah platform yang berkomitmen untuk menyediakan sumber daya, dukungan, dan inspirasi bagi kesehatan mental Anda. Bersama-sama, kita membangun lingkungan yang mendukung pertumbuhan emosional dan
+                        kesejahteraan.
                     </div>
                 </div>
             </div>
@@ -96,7 +97,7 @@ const Page = () => {
                                 <div className="font-bold">{item.judul}</div>
                                 <img src={item.linkgambar} alt={`Image for ${item.judul}`} />
                                 <div className="text-justify">{truncateDescription(item.deskripsi, 15)}</div>
-                                <button className="btn bg-black py-2 px-5 rounded-md text-white">
+                                <button className="btn color-primary py-2 px-5 rounded-md text-white">
                                     <Link href={`/detail/${item.id}`} className="">
                                         Detail
                                     </Link>
@@ -148,7 +149,7 @@ const Page = () => {
                             </div>
                         </div>
                         <div className="col-span-2">
-                            <button className="bg-black text-white rounded py-5 h-full w-full">Kirim</button>
+                            <button className="color-primary btn text-white rounded py-5 h-full w-full">Kirim</button>
                         </div>
                     </div>
                 </div>

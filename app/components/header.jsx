@@ -8,27 +8,25 @@ const Page = () => {
     const pathname = useRouter?.pathname;
 
     return (
-        <header>
-            <div>
-                <div className="flex flex-row justify-between px-20 py-5">
-                    <Image src="/app/stoik.png" width={90} height={90} />
-                    <ul className="flex flex-row gap-10">
-                        <li>
-                            <a href="/" className={pathname === "/" ? "text-bold" : ""}>
-                                Beranda
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/edukasi">Edukasi</a>
-                        </li>
-                        <li>
-                            <a href="/tentang">Tentang</a>
-                        </li>
-                        <li>
-                            <a href="/kontak">Kontak</a>
-                        </li>
-                    </ul>
-                </div>
+        <header className="bg-white w-full fixed z-50 drop-shadow max-w-screen">
+            <div className="flex flex-row justify-between px-20 py-5 ">
+                <Image src="/app/stoik2.png" width={70} height={70} />
+                <ul className="flex flex-row gap-10">
+                    <li className="flex flex-col justify-center">
+                        <a href="/" className={pathname === "/" ? "text-bold" : ""}>
+                            Beranda
+                        </a>
+                    </li>
+                    <li className="flex flex-col justify-center">
+                        <a href="/edukasi">Edukasi</a>
+                    </li>
+                    <li className="flex flex-col justify-center">
+                        <a href="/tentang">Tentang</a>
+                    </li>
+                    <li className="flex flex-col justify-center">
+                        <a href="/kontak">Kontak</a>
+                    </li>
+                </ul>
             </div>
         </header>
     );

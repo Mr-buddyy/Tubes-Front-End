@@ -5,9 +5,9 @@ function footer() {
         padding: "10px",
     };
     return (
-        <footer>
+        <footer className="bg-white">
             <div className="w-full p-20">
-                <div className="grid grid-cols-6 gap-10 w-full h-full">
+                <div className="grid sm:grid-cols-6 gap-10 w-full h-full">
                     <div className="col-span-2 text-sm">
                         <div className="font-bold">Stoik</div>
                         <div>Stoik, Menyentuh Hati, Mencerahkan Minda, Satu Langkah Menuju Kesehatan Mental yang Lebih Baik.</div>

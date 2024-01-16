@@ -21,11 +21,11 @@ function Filter({ searchKeyword, onFilterChange, sortOption, onSortChange, sortD
             </label>
             <label>
                 Sort by:
-                <select value={sortOption} onChange={onSortChange} className="p-2 border border-gray-300 rounded-md">
+                {/* <select value={sortOption} onChange={onSortChange} className="p-2 border border-gray-300 rounded-md">
                     <option value="judul">Judul</option>
                     <option value="tanggal">Tanggal</option>
-                    {/* Add other sorting options as needed */}
-                </select>
+                    Add other sorting options as needed 
+                </select> */}
                 <button onClick={onToggleSortDirection} className="p-2 border border-gray-300 rounded-md">
                     {sortDirection === "asc" ? "Ascending" : "Descending"}
                 </button>
